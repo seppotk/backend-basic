@@ -1,25 +1,27 @@
 # My Variables
 @contentType = application/json
+
 # @baseurl = http://localhost:4000/api
-@baseurl =https://backend-v1-qbgm.onrender.com/api
+# @baseurl =https://backend-v1-qbgm.onrender.com/api
+@baseurl =https://backend-basic-gnbj.onrender.com/api
 
 ### GET Request
 GET {{baseurl}}/workouts
 Content-Type: {{contentType}
 
 ### GET Request
-GET {{baseurl}}/workouts/6377bba279bd79cae50494cf
+GET {{baseurl}}/workouts/638af3bc710c6c87845e1f9f
 Content-Type: {{contentType}
 
 ### GET Request (does not exist)
 GET {{baseurl}}/workouts/625158890e75b4ff2a109ab9999
 Content-Type: {{contentType}
 
-### DELET Request
+### DELETE Request
 DELETE {{baseurl}}/workouts/6377bb0a79bd79cae50494c2
 Content-Type: application/json
 
-### DELET Request  (does not exist)
+### DELETE Request  (does not exist)
 DELETE {{baseurl}}/workouts/6251a0ed1317e5dff269f8aa
 Content-Type: application/json
 
@@ -60,7 +62,7 @@ content-type: application/json
 
 
 ### PUT  Request
-PATCH {{baseurl}}/workouts/6377bba279bd79cae50494cf
+PATCH {{baseurl}}/workouts/638af3c5710c6c87845e1fa1
 Content-Type: application/json
 
 {
